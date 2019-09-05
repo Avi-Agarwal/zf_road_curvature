@@ -3,7 +3,7 @@ class Test:
 
     def test_function(self):
         print('ZF team best team')
-        print('Guiliang is here')
+        print('Guiliang is here test')
         print('Avi here Test Test')
 
 # Class runner
