@@ -19,7 +19,7 @@ if __name__ == '__main__':
     advisory_speed = system1.calculate_speed()
     # advisory_speed is in mph
 
-    print("Truck speed should be:", format(advisory_speed, ".0f"), "mph")
+    print('Truck speed should be: ' + str(advisory_speed) + ' mph')
 # # Main Function
 # if __name__ == '__main__':
 # #

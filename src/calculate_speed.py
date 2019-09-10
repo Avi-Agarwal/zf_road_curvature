@@ -17,18 +17,7 @@ class CalculateSpeed:
 if __name__ == '__main__':
     system1 = CalculateSpeed(1,1,1)
     new_speed = system1.calculate_speed()
-    print("Truck speed should be: " + str(new_speed))
-
-import math
-
-
-class CalculateSpeed:
-
-    def __init__(self, SuperElevation, SideFrictionFactor, CurvatureRadius):
-        self.elevation = SuperElevation  # Percent
-        self.friction = SideFrictionFactor  # no unit
-        self.curvature = CurvatureRadius  # ft
-
+    print("Truck speed should be: " + str(new_speed) + ' mph')
 
 
 
